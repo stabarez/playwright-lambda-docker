@@ -1,0 +1,15 @@
+{
+  "name": "playwright-lambda-docker",
+  "version": "1.0.0",
+  "description": "playwright-lambda-docker demo",
+  "main": "sample-robot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "stabarez",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.12.3",
+    "playwright-extra": "^1.0.1"
+  }
+}
