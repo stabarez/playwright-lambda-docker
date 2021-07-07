@@ -42,7 +42,7 @@ RUN mkdir -p /usr/lib/x86_64-linux-gnu \
   && ln -s /lib64/libstdc++.so.6.0.24 /usr/lib/x86_64-linux-gnu/libstdc++.so.6
 
 # Build and archive Firefox from Playwright repository
-RUN git config --global user.email stf9331@gmail.com \
+RUN git config --global user.email you@example.com \
   && git clone https://github.com/microsoft/playwright.git \
   && ./playwright/browser_patches/prepare_checkout.sh firefox \
   && ./playwright/browser_patches/firefox/build.sh \
