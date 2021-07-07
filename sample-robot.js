@@ -6,7 +6,6 @@ const SampleRobot = async () => {
   const page = await context.newPage()
   await page.goto('https://www.google.com/')
 
-  console.log('Page loaded correctly!')
   await page.close()
   return true
 }
